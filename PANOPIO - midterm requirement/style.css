@@ -1,0 +1,127 @@
+/* Set default body background if needed (optional) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* HERO SECTION */
+  .hero {
+    background-image: url('bg.jpg'); /* make sure the path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent background */
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+    max-width: 600px;
+  }
+  
+  /* GENERAL STYLES */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    font-size: 0.9rem;
+  }
+  
+  .full-width-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* PRODUCT SECTION */
+  .products {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  /* FORM STYLING */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .about-us {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+  .about-us h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .product-card img {
+    width: 100%; /* Ensures the image fills the container */
+    height: auto; /* Maintains the aspect ratio */
+    max-width: 300px; /* Limits the width of the image to 300px */
+    margin-bottom: 10px; /* Adds spacing below the image */
+  }
+  section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Product Cards Container (optional grid layout) */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px 40px;
+  }
+      
